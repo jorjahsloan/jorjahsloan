@@ -1,7 +1,6 @@
 body {
 font-family:'Cormorant Garamond', serif;
 background-color: bisque;
-
 }
 
 main {
@@ -61,7 +60,7 @@ p {
     flex-shrink: 1;
     flex-grow: 1;
     margin: .5rem;
-    font-size: large;
+    font-size: 1.03em;
 }
 
 p.First {

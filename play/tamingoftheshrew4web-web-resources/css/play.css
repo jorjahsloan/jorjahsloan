@@ -16,6 +16,12 @@ section.nav {
   /* this is where your nav list items will be */
 }
 
+nav ul li a{
+  text-decoration: none;
+  padding: 0.8em;
+  
+}
+
 section {
   border: 0;
 }
