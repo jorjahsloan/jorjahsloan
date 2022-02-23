@@ -152,7 +152,7 @@ p {
     font-size: 1.03em;
 }
 
-.playlink {color: white}
+p a {color: white}
 
 p.First {
     color:white;
