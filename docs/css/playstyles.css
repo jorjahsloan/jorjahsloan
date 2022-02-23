@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-padding-top: 45px;
+}
 
 body {
   font-family: 'Cormorant Garamond', serif;
