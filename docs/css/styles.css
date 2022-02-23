@@ -8,7 +8,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: grey;
+    background-color: bisque;
   }
   
   input[type="checkbox"] {
@@ -37,6 +37,8 @@ nav {
     text-decoration: none;
     padding: 0.8rem 1rem;
     display: block;
+    color:rgb(45, 80, 80);
+    font-weight: 600;
   }
   
   nav ul li:hover {
