@@ -10,6 +10,38 @@ html {
   scroll-padding-top: 45px;
 }
 
+@media screen and (max-width: 700px) {
+  nav ul {
+    display: none;
+    flex-direction: column;
+  }
+
+  .hamburger {
+    display: block;
+    float: right;
+    cursor: pointer;
+  }
+
+  /*   ~ the tilda points to the next sibling selector */
+
+  input[type="checkbox"]:checked ~ ul {
+    display: block;
+  }
+
+  li ul {
+    position: static;
+  }
+  nav ul li {
+    flex: 0 0 auto; /*the same as flex-grow, flex-shrink, flex-basis */
+    width: 100%;
+  }
+
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
 body {
   font-family: 'Cormorant Garamond', serif;
   /*your style rules go in here */
@@ -28,6 +60,24 @@ nav ul li a{
 section {
   border: 0;
 }
+
+.backtotop {
+  position: fixed;
+  bottom: 2px;
+  right: 8px;
+  opacity: 0.9;
+}
+
+.backtotop a {
+  text-decoration: none;
+  font-size: 3em;
+  color: rgb(8, 119, 126);
+}
+
+.backtotop a:hover {
+  color: black
+}
+
 
 /*Here follows the class names that you will have in your html*/
 /*You may have more if you added styles in InDesign*/
