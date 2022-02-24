@@ -95,20 +95,20 @@ section {
   font-size: 1.1em;
   width: 4em;
   padding-left: 4px;
+  ;
 }
-
 section.dramatis { 
-  background-color: grey;
+  background-color: bisque;
   width: 70%;
   margin: 3em auto;
   padding: 12px;
   text-align: left;
 }
 section.play {
-  background-color: grey;
+  background-color: bisque;
   width: 70%;
   margin: 3em auto;
-  padding: 12px;
+  padding: 20px;
   text-align: left;
 }
 
@@ -118,40 +118,74 @@ figure{
 }
 
 img {
-  width: 70%;
-  margin: 0;
+  width: 50%;
+  margin-top: 70;
+  margin-left: 215;
 }
 
 div.sceneImage {
 }
 h1.act {
+  text-decoration: underline;
+  font-size: xx-large;
+  text-align: center;
 }
 p.character {
+  font-size: larger;
 }
 p.charactername {
+  font-size: large;
 }
 h1.dramatishead {
+  font-size: xx-large;
+  text-decoration:underline;
 }
 h2.firstscene {
+ font-size: x-large;
+ text-align: center;
 }
 h2.location {
+  font-size:large;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 4%;
+
 }
 p.play_location {
+  font-size: medium;
+  font-style: italic;
 }
 p.prose {
+  font-size: large;
+  padding-left: 6%;
+  padding-bottom: 2%;
 }
 h2.scene {
+  font-size:x-large;
+  font-weight: bolder;
+  font-style: italic;
 }
 p.song {
+  font-style: italic;
+  font-size: large;
 }
 h2.stagedirection {
+  font-size: medium;
+  font-style: italic;
+  font-weight: 700;
+  padding-bottom: 1%;
+  padding-top: 1%;
 }
 .verseline {
   margin: 0 0 0.4em 8em;
+  font-size:large;
+
 }
 span.character_role {
+  font-size: xx-large;
 }
 span.stage_directions_inline {
+  
 }
 
 span.character_beforespeech {
