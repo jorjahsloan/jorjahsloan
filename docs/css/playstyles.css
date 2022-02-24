@@ -35,7 +35,6 @@ html {
     flex: 0 0 auto; /*the same as flex-grow, flex-shrink, flex-basis */
     width: 100%;
   }
-
 }
 
 input[type="checkbox"] {
@@ -49,12 +48,70 @@ body {
 
 section.nav {
   /* this is where your nav list items will be */
-}
+  width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 2rem;
+    color: white;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    flex: 0 0 8rem; /*the same as flex-grow, flex-shrink, flex-basis */
+    text-align: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    display: block;
+    color:rgb(45, 80, 80);
+    font-weight: 600;
+  }
+  
+  nav ul li:hover {
+    background-color: rgb(8, 119, 126);
+  }
+  nav ul li a:hover {
+    color: white;
+  }
+  
+  li ul {
+    display: none;
+    position: absolute;
+    background-color: rgb(8, 119, 126);
+  }
+  
+  nav ul li:hover ul {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav ul li ul li {
+    flex: 0 1 auto;
+    width: 8rem; /* the same as the value for flex-basis on the parent li */
+  }
+
 
 nav ul li a{
   text-decoration: none;
   padding: 0.8em;
-  
 }
 
 section {
@@ -101,9 +158,15 @@ section.dramatis {
   background-color: bisque;
   width: 70%;
   margin: 3em auto;
-  padding: 12px;
+  padding-left: 30px;
   text-align: left;
 }
+h1.dramatishead {
+  text-align: center;
+  padding-bottom: 4%;
+  padding-top: 2%;
+}
+
 section.play {
   background-color: bisque;
   width: 70%;
@@ -125,6 +188,7 @@ img {
 
 div.sceneImage {
 }
+
 h1.act {
   text-decoration: underline;
   font-size: xx-large;
@@ -148,12 +212,13 @@ h2.location {
   font-size:large;
   text-align: center;
   padding-top: 2%;
-  padding-bottom: 4%;
-
+  padding-bottom: 3%;
 }
 p.play_location {
   font-size: medium;
   font-style: italic;
+  padding-bottom: 4%;
+  padding-top: 3%;
 }
 p.prose {
   font-size: large;
@@ -193,6 +258,12 @@ span.stage_directions_inline {
 
 span.character_beforespeech {
   font-size: xx-large;
+}
+
+p.lastlineinverse {
+  font-size: xx-large;
+  text-align: center;
+  padding-top: 5%;
 }
 
 
