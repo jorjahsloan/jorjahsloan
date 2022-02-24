@@ -131,10 +131,10 @@ h1.act {
   text-align: center;
 }
 p.character {
-  font-size: larger;
+  font-size: large;
 }
 p.charactername {
-  font-size: large;
+  font-size: larger;
 }
 h1.dramatishead {
   font-size: xx-large;
@@ -182,7 +182,8 @@ h2.stagedirection {
 
 }
 span.character_role {
-  font-size: xx-large;
+  font-size: large;
+  padding-left: 2%;
 }
 span.stage_directions_inline {
   
