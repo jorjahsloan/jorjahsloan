@@ -164,6 +164,8 @@ h2.scene {
   font-size:x-large;
   font-weight: bolder;
   font-style: italic;
+  padding-top: 3%;
+  text-align: center;
 }
 p.song {
   font-style: italic;
@@ -186,10 +188,11 @@ span.character_role {
   padding-left: 2%;
 }
 span.stage_directions_inline {
-  
+  font-size: xx-large;
 }
 
 span.character_beforespeech {
+  font-size: xx-large;
 }
 
 
