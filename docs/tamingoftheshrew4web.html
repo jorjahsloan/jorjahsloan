@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta charset="utf-8" />
@@ -6,19 +7,25 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;0,700;1,300;1,600;1,700&display=swap" rel="stylesheet">
 		<link href="css/playstyles.css" rel="stylesheet" type="text/css"/>
+		<script>
+			function hidemenu() {
+				document.getElementById("toggle").checked = false;
+			}
+		</script>
 	</head>
 
 	<body id="tamingoftheshrew4web" lang="en-GB">
 		<div class="backtotop">
-			<a title="go back to the top of the page" href="#tamingoftheshrew4web">&#x25B2;</div></a>
+			<a title="go back to the top of the page" href="#tamingoftheshrew4web">&#x25B2;</a>
 		</div>
+
 		<nav>
-			<input type="checkbox" id="toggle" unchecked />
+			<input type="checkbox" id="toggle" unchecked/>
 			<label for="toggle" class="hamburger">&#9776;</label>
 			
 			<ul id="menu" onclick="hidemenu()">
-			<ul id="menu">
-				<li class="home"><a href="index.html">Home</a></li>
+				<li class="home">
+					<a href="index.html">Home</a></li>
 				<li class="TOC-Heading-1"> 
 					<a href="tamingoftheshrew4web.html#_idTextAnchor000">Dramatis Personae</a>
 				</li>
@@ -98,6 +105,7 @@
 				</li>
 			</ul>
 		</nav>
+		
 		<section id="_idContainer001" class="dramatis">
 			<h1 class="dramatishead"><a id="_idTextAnchor000"></a>Dramatis Personae</h1>
 			<p class="charactername"><span class="character-name">A Lord</span>&#9;</p>
