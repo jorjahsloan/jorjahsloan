@@ -67,7 +67,7 @@ nav {
     width: 8rem; /* the same as the value for flex-basis on the parent li */
   }
   
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 800px) {
     nav ul {
       display: none;
       flex-direction: column;
